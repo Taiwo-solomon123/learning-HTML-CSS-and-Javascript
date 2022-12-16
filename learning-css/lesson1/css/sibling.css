@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 + p{
+    font-family: monospace;
+    color: grey;
+}
+
+.chapter::before{
+    content: '"';
+    font-size: 5em;
+}
+.chapter p::first-letter{
+    float: left;
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.chapter p::first-line{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}

@@ -1,0 +1,76 @@
+*{
+    font-family: monospace;
+}
+body{
+    font-size: 22px;
+}
+h1, h2{
+    color: blue;
+}
+p{
+    color: purple;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+.gray{
+    color: gray;
+}
+#second{
+    font-style: italic;
+}
+.list-itemsc > ul > li{
+    color: blueviolet;
+}
+.time{
+    padding: 30px;
+    padding-right: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+h2 + p{
+    color: #777;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+acronym[title]{
+    border-bottom: 3px dotted goldenrod;
+}
+
+acronym[title]:hover{
+    cursor: help;
+}
+
+.chapter::before{
+    content: '"';
+    font-size: 5em;
+}
+.chapter p::first-letter{
+    float: left;
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.chapter p::first-line{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/* Visited */
+a:link{
+    color: rgb(131, 223, 88);
+}
+
+a:visited{
+    color: rgb(227, 15, 15);
+}
+
+a:active{
+    color: royalblue;
+}
+
+a:hover, a:focus{
+    color: goldenrod;
+}
