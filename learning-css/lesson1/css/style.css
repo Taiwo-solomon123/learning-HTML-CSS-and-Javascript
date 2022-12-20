@@ -59,6 +59,9 @@ acronym[title]:hover{
 }
 
 /* Visited */
+a{
+    text-decoration: None;
+}
 a:link{
     color: rgb(131, 223, 88);
 }
@@ -74,3 +77,8 @@ a:active{
 a:hover, a:focus{
     color: goldenrod;
 }
+
+/* ul li{
+    
+}
+ */

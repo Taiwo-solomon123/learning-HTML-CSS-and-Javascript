@@ -19,4 +19,26 @@ h2 + p{
 .chapter p::first-line{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
+}a{
+    text-decoration: None;
 }
+a:link{
+    color: rgb(131, 223, 88);
+}
+
+a:visited{
+    color: rgb(227, 15, 15);
+}
+
+a:active{
+    color: royalblue;
+}
+
+a:hover, a:focus{
+    color: goldenrod;
+}
+
+/* ul li{
+    
+}
+ */
